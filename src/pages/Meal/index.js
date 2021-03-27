@@ -37,10 +37,11 @@ function Meal() {
                                             <li>
                                                 <label className="title-field">Category</label>
                                                 <Field className="meal-input" name="category" component="select" required>
-                                                    <option value="1">one</option>
-                                                    <option value="2">two</option>
-                                                    <option value="3">three</option>
-                                                    <option value="4">four</option>
+                                                    <option></option>
+                                                    <option value="breakfast">Breakfast</option>
+                                                    <option value="lunch">Lunch</option>
+                                                    <option value="dinner">Dinner</option>
+                                                    <option vlaue="fast meals">Fast Meals</option>
                                                 </Field>
                                                 <span className="astrisk">*</span>
                                             </li>
@@ -54,8 +55,11 @@ function Meal() {
                         </div>
                     </div>
                     <div className="col-md-4 meal-image">
-                        <div>
-
+                        <div className="image-container">
+                            <img className="img-fluid" src="images/meal.jpg" alt="Select" />
+                        </div>
+                        <div className="button-image">
+                            <button>Select Image</button>
                         </div>
                     </div>
                 </div>

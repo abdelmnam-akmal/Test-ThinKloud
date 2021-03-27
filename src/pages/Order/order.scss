@@ -1,0 +1,75 @@
+.order {
+    border: 2px solid #CCC;
+    padding: 20px 20px 10px;
+    .order-form {
+        .list-order {
+            > li {
+                margin-bottom: 25px;
+                label {
+                    width: 20%;
+                }
+                input,
+                select {
+                    width: 30%;
+                }
+            }
+        }
+    }
+    .submit-order {
+        .check-order {
+            div {
+                label {
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .addOrder-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+            h4 {
+                font-weight: bold;
+            }
+            button {
+                padding: 5px 40px;
+            }
+        }
+    }
+}
+.table-cont {
+    background-color: #CCC;
+    margin-top: 20px;
+    padding: 10px;
+    height: 300px;
+    .table {
+        border: 1px solid #968f8f;
+        background-color: #FFF;
+        tr {
+            height: 30px;
+            &.special {
+                height: 160px;
+            }
+            th, td {
+                border-right: 1px solid #968f8f;
+                text-align: center;
+            }
+            th {
+                width: calc(100% / 5);
+                vertical-align: middle;
+            }
+        }
+        caption {
+            font-weight: bold;
+            color: #333;
+            font-size: 20px;
+            text-align: right;
+            margin-right: 40px;
+        }
+    }
+}
+.new-order-btn {
+    text-align: right;
+    margin-top: 20px;
+}
