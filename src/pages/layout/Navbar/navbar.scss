@@ -1,0 +1,25 @@
+.main-navbar {
+    margin-bottom: 70px;
+    .title-nav {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .navbar-list {
+        outline: 2px solid rgb(112, 110, 110);
+        display: inline-block;
+        .navbar-item {
+            text-decoration: none;
+            color: #232323;
+            padding: 4px 15px;
+            display: inline-block;
+            border-right: 2px solid rgb(129, 127, 127);
+            &:last-of-type {
+                border-right: none;
+            }
+            &.active {
+                background-color:rgb(129, 127, 127);
+                color: #FFF;
+            }
+        }
+    }
+}

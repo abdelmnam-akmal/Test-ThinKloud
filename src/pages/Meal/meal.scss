@@ -1,0 +1,45 @@
+.meal {
+    .meal-form {
+        > div {
+            form {
+                .list-form {
+                    > li {
+                        display: flex;
+                        align-items: flex-start;
+                        margin-bottom: 40px;
+                        textarea,
+                        input,
+                        select {
+                            border: 1px solid #CCC;
+                            border-top: 2px inset #CCC;
+                        }
+                        label {
+                            width: 15%;
+                            font-weight: 500;
+                        }
+                        textarea {
+                            width: 70%;
+                            resize: none;
+                            height: 85px;
+                        }
+                        input, select {
+                            width: 20%;
+                        }
+                        .astrisk {
+                            margin-left: 10px;
+                            font-weight: bold;
+                            font-size: 18px;
+                        }
+                        &:last-of-type {
+                            justify-content: center;
+                            align-items: center;
+                            button {
+                                padding: 8px 45px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
