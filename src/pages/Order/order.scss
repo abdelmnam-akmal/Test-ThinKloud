@@ -12,6 +12,14 @@
                 select {
                     width: 30%;
                 }
+                .meal-select {
+                    .option-special {
+                        display: none;
+                        &.active {
+                            display: block;
+                        }
+                    }
+                }
             }
         }
     }
